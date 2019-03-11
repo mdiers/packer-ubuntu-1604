@@ -57,6 +57,7 @@
       "http_directory": "http",
       "iso_urls": [
         "iso/ubuntu-16.04.4-server-amd64.iso",
+        "http://old-releases.ubuntu.com/releases/xenial/ubuntu-16.04.4-server-amd64.iso",
         "http://releases.ubuntu.com/16.04/ubuntu-16.04.4-server-amd64.iso"
       ],
       "iso_checksum_type": "sha256",
@@ -119,6 +120,7 @@
       "http_directory": "http",
       "iso_urls": [
         "iso/ubuntu-16.04.4-server-amd64.iso",
+        "http://old-releases.ubuntu.com/releases/xenial/ubuntu-16.04.4-server-amd64.iso",
         "http://releases.ubuntu.com/16.04/ubuntu-16.04.4-server-amd64.iso"
       ],
       "iso_checksum_type": "sha256",
