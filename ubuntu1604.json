@@ -13,7 +13,9 @@
     {
       "type": "ansible-local",
       "playbook_file": "ansible/main.yml",
-      "galaxy_file": "requirements.yml"
+        "command": "env http_proxy='http://10.50.101.10:3128' https_proxy='http://10.50.101.10:3128' ANSIBLE_FORCE_COLOR=1 PYTHONUNBUFFERED=1 ansible-playbook -vvv",
+      "galaxy_file": "requirements.yml",
+      "galaxycommand": "env http_proxy='http://10.50.101.10:3128' https_proxy='http://10.50.101.10:3128' ansible-galaxy -vvv -c"
     },
     {
       "type": "shell",

@@ -3,6 +3,11 @@
   become: yes
   gather_facts: yes
 
+  environment:
+    no_proxy: "localhost,.localdomain,.local,.gemalto.com"
+    http_proxy: "http://10.50.101.10:3128"
+    https_proxy: "http://10.50.101.10:3128"
+
   roles:
     - geerlingguy.nfs
     - geerlingguy.packer-debian
